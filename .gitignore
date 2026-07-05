@@ -1,0 +1,41 @@
+# Binaries
+/taxonrouter-mcp
+/taxonrouter-auto-tagger
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the coverage tool
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor (if used)
+/vendor
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Secrets and credentials
+.env
+.env.local
+*.pem
+*.key
