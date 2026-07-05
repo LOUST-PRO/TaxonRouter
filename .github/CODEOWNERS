@@ -1,0 +1,10 @@
+# Default owners for everything in the repo
+* @louzt
+
+# Go packages — any maintainer can approve
+/pkg/ @louzt
+/cmd/ @louzt
+/internal/ @louzt
+
+# GitHub workflows
+/.github/workflows/ @louzt
