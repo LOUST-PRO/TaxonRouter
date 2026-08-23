@@ -3,7 +3,7 @@
 // This Dockerfile builds both binaries using a multi-stage build.
 // The final image is distroless/static for minimal attack surface.
 
-FROM golang:1.25-alpine AS builder
+FROM golang:1.27-alpine AS builder
 
 WORKDIR /build
 
